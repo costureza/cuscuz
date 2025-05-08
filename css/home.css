@@ -1,0 +1,27 @@
+.home{
+    display: flex;    
+    align-items: center;    
+    min-height: 34vh;
+    margin-top: 16vh;
+    background-color: #FFF7D0;
+    background-image: url(../img/hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+.home .hero{
+    width: 60rem;
+}
+.home .hero h3{
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: var(--letra);
+    font-family: var(--fonte-logo);
+}
+.home .hero p{
+    font-size: 2.5rem;    
+    line-height: 2;
+    padding: 1rem 0;
+    color: var(--letra-leve);
+}

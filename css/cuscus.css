@@ -1,0 +1,89 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
+
+.cuscus .wrapper .cuscus-card{
+    background-color: var(--card);
+    padding: 3rem 2rem;
+    text-align: center;
+    transform-origin: top center;
+}
+.cuscus .wrapper .cuscus-card:hover{
+    transform: scaleY(1.1);
+    background-color: var(--black);
+}
+.cuscus .wrapper .cuscus-card:hover *:not(a){
+    color: var(--bg2);
+}
+.cuscus .wrapper .cuscus-card img{
+    width: 100%;
+}
+.cuscus .wrapper .cuscus-card h3{
+    color: var(--letra);
+    font-size:3rem;
+    padding: 1rem 0;
+    font-family: var(--fonte-logo);
+}
+.cuscus .wrapper .cuscus-card .price{
+    color: var(--letra-leve);
+    font-size: 2.4rem;
+    padding: .5rem 0;
+}
+.cuscus .wrapper .cuscus-card .price span{
+    color: var(--letra-leve);
+    font-size: 2.4rem;
+    text-decoration: line-through;
+}
+.cuscus-doce .wrapper .cuscusdoce-card{
+    background-color: var(--card);
+    padding: 2rem;
+    text-align: center;
+    border: var(--border);
+}
+.cuscus-doce .wrapper .cuscusdoce-card:hover{
+box-shadow: var(--box-shadow);
+}
+.cuscus-doce .wrapper .cuscusdoce-card .icons a{
+    border: var(--border);
+    height: 5rem;
+    width: 5rem;
+    color: var(--letra);
+    font-size: 2rem;
+    line-height: 5rem;
+    margin: .3rem;
+}
+.cuscus-doce .wrapper .cuscusdoce-card .icons a:hover{
+    background-color: var(--botao);
+    box-shadow: var(--box-shadow);
+}
+.cuscus-doce .wrapper .cuscusdoce-card .img{
+    padding: 2.5rem 0;
+}
+.cuscus-doce .wrapper .cuscusdoce-card .img img{
+    height: 20rem;
+}
+.cuscus-doce .wrapper .cuscusdoce-card  .content h3{
+    color: var(--letra);
+    font-size:3rem;
+    margin: 1rem 0;
+    font-family: var(--fonte-logo);
+}
+.cuscus-doce .wrapper .cuscusdoce-card .content .stars{
+    padding: 1.8rem;
+}
+.cuscus-doce .wrapper .cuscusdoce-card .content .stars i{
+    color: var(--botao);
+    font-size: 1.7rem;
+    text-shadow: 1px 1px 0 var(--letra);
+}
+.cuscus-doce .wrapper .cuscusdoce-card .content .price{
+    color: var(--letra-leve);
+    font-size: 3rem;
+}
+.cuscus-doce .wrapper .cuscusdoce-card .content .price span{
+    color: var(--letra-leve);
+    font-size: 2.4rem;
+    text-decoration: line-through;
+}

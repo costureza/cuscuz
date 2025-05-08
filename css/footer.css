@@ -1,0 +1,52 @@
+.footer{
+    background-color: var(--botao);
+    text-align: center;
+    
+}
+.footer .social-media{
+    padding: 1rem 0;
+}
+.footer .social-media a{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    line-height: 5rem;
+    font-size: 2rem;
+    color: var(--letra);
+    border: var(--border);
+    margin: .5rem;
+}
+.footer .social-media a:hover{
+    background-color: var(--card);
+}
+.footer .links{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    gap: 1rem;
+}
+.footer .links a{
+    padding: .7rem 2rem;
+    color: var(--letra);
+    border: var(--border);
+    font-size: 2rem;
+}
+.footer .links a:hover{
+    background: var(--card);
+}
+.footer .credits{
+    font-size: 2rem;
+    color: var(--letra);
+    padding: 1.5rem;
+
+}
+.footer .credits a {
+    color: var(--card);    
+    font-size: 2rem;
+    font-family: var(--fonte-logo);
+    text-shadow: 1px 1px 0 var(--letra);
+}
+.footer .credits a:hover{
+    color: var(--letra);
+}

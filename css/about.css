@@ -1,0 +1,28 @@
+.about .container{
+    display: flex;
+    justify-content: center;
+    background-color: var(--black);
+    flex-wrap: wrap;
+}
+.about .container .img{
+    flex: 1 1 45rem;
+}
+.about .container .img img{
+    width: 100%;
+}
+.about .container .content{
+    flex: 1 1 45rem;
+    padding: 2rem;
+}
+.about .container .content h3{
+    font-size: 4rem;
+    font-family: var(--fonte-logo);
+    color: var(--letra);
+    padding: 1.2rem 0;
+}
+.about .container .content p{
+    font-size: 2.5rem;
+    color: var(--letra-leve);
+    padding: 1rem 0;
+    line-height: 2;
+}
