@@ -40,9 +40,6 @@ body{
     background: var(--bg);
 }
 
-
-
-
 .btn{
     display: inline-block;
     background-color: var(--botao);
